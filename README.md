@@ -1,2 +1,4 @@
 # Free_maket
-Free_market programa de mercado para fecip
+O PISC é um software que permite o usuário praticidade e economia em suas compras, apresentando os preços dos produtos dos mercados cadastrados.
+
+
