@@ -13,9 +13,14 @@ O PISC é um software que permite o usuário praticidade e economia em suas comp
   
 5- Click no botão para instalar a base de dados.  
 ![Legenda](https://i.imgur.com/DPpvdhh.png)  
+  
 6- Utilize o programa normalmente.  
+  
+![Legenda](https://i.imgur.com/ImHwTKV.png)  
 
 # Usuários cadastrados
 Administtrador:  Usuário: **adm**        Senha: **adm**  
 Configurações:   Usuário: **teste**      Senha: **teste**
+
+
 
