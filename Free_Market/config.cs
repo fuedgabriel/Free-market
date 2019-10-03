@@ -1,0 +1,41 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Windows.Forms;
+using Npgsql;
+
+namespace Free_Market
+{
+    public partial class config : Form
+    {
+        public config()
+        {
+            InitializeComponent();
+        }
+
+        private void Cadastrar_Click(object sender, EventArgs e)
+        {
+            string ipp = ip.Text, pport=port.Text, ppass=pass.Text, datta=Data.Text;
+            Global.Linha = ("Server='"+ ipp+"';Port='"+pport+"';User Id=postgres;Password='"+ppass+"';Database='"+datta+"';");
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string codigo = " CREATE TABLE cargos (Carg_id SERIAL PRIMARY KEY,Carg_nome VARCHAR(60));CREATE TABLE Users (user_id SERIAL PRIMARY KEY,senha VARCHAR(60),email VARCHAR(255),cpf VARCHAR(11),telefone VARCHAR(13),nome VARCHAR(255),login VARCHAR(60),Carg_id INTEGER,FOREIGN KEY(Carg_id) REFERENCES cargos (Carg_id));CREATE TABLE itens (Quantidade INTEGER,id_prod INTEGER,Tran_id INTEGER);CREATE TABLE transaçoes (Data date,Tran_id SERIAL PRIMARY KEY,status VARCHAR(30),user_id INTEGER,FOREIGN KEY(user_id) REFERENCES Users (user_id));CREATE TABLE mercado (mer_id SERIAL PRIMARY KEY,endereco VARCHAR(255),nome VARCHAR(255),telefone VARCHAR(13));CREATE TABLE Produtos (prod_nome VARCHAR(60),preco Float,prod_tipe VARCHAR(20),id_prod SERIAL PRIMARY KEY,mer_id INTEGER,cat_id INTEGER,FOREIGN KEY(mer_id) REFERENCES mercado (mer_id));CREATE TABLE categoria (cat_nome VARCHAR(60),cat_id SERIAL PRIMARY KEY);ALTER TABLE itens ADD FOREIGN KEY(id_prod) REFERENCES Produtos (id_prod);ALTER TABLE itens ADD FOREIGN KEY(Tran_id) REFERENCES transaçoes (Tran_id);ALTER TABLE Produtos ADD FOREIGN KEY(cat_id) REFERENCES categoria (cat_id);insert into Cargos (carg_id,carg_nome) values (0,'Comprador');insert into Cargos (carg_id,carg_nome) values (1,'Administrador');insert into Users (senha,email,cpf,telefone,nome,login,carg_id) values ('adm','adm','adm','adm','adm','adm',1);insert into categoria (cat_nome) values ('Refrigerante');insert into mercado (endereco,nome,telefone) values (' Estr. do Cabuçú, 1654 - Campo Grande, Rio de Janeiro - RJ','Prezunic',23052-230);insert into produtos (prod_nome,preco,mer_id,cat_id) values ('Coca-Cola',5.50,1,1);";
+            using (NpgsqlConnection connection = new NpgsqlConnection(Global.Database()))
+            {
+                using (NpgsqlCommand cmd = new NpgsqlCommand(codigo, connection))
+                {
+                    connection.Open();
+                    cmd.ExecuteNonQuery();
+                    connection.Close();
+                    MessageBox.Show("Cadastrado com sucesso", "Sucesso");
+                }
+            }
+        }
+    }
+}
