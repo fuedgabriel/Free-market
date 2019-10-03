@@ -10,6 +10,6 @@ O PISC é um software que permite o usuário praticidade e economia em suas comp
 6- Utilize o programa normalmente   
 
 # Usuários cadastrados
-Administtrador: adm               adm
-Configurações:  teste             teste
+Administtrador:  Usuário: **adm**   Senha: **adm**  
+Configurações:   Usuário: **teste** Senha: **teste**
 
