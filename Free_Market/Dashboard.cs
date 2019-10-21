@@ -68,6 +68,9 @@ namespace Free_Market
             func1.Hide();
             histórico1.Hide();
             alterarprods1.Hide();
+            históricoAll1.Hide();
+
+
         }
 
         private void Form2_Load(object sender, EventArgs e)
@@ -83,6 +86,7 @@ namespace Free_Market
                 button4.Hide();
                 button5.Hide();
                 button7.Hide();
+                button8.Hide();
             }
             else if (perfil[0].carg_id == 1)
             {
@@ -136,6 +140,14 @@ namespace Free_Market
             Closeall();
             alterarprods1.reload();
             alterarprods1.Show();
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            Closeall();
+            históricoAll1.userid = perfil[0].user_id;
+            históricoAll1.Reload();
+            históricoAll1.Show();
         }
     }
 }

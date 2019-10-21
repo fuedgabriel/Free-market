@@ -108,3 +108,33 @@ C:\Users\fuedgabriel10\Downloads\Free_Market-master\Free_Market\obj\x86\Debug\Fr
 C:\Users\fuedgabriel10\Downloads\Free_Market-master\Free_Market\obj\x86\Debug\Free_Market.csproj.CopyComplete
 C:\Users\fuedgabriel10\Downloads\Free_Market-master\Free_Market\obj\x86\Debug\Free_Market.exe
 C:\Users\fuedgabriel10\Downloads\Free_Market-master\Free_Market\obj\x86\Debug\Free_Market.pdb
+C:\Users\House\Downloads\Free-market-master (1)\Free-market-master\Free_Market\obj\x86\Debug\Free_Market.csprojAssemblyReference.cache
+C:\Users\House\Downloads\Free-market-master (1)\Free-market-master\Free_Market\obj\x86\Debug\Free_Market.Alterarprods.resources
+C:\Users\House\Downloads\Free-market-master (1)\Free-market-master\Free_Market\obj\x86\Debug\Free_Market.CadastroMec.resources
+C:\Users\House\Downloads\Free-market-master (1)\Free-market-master\Free_Market\obj\x86\Debug\Free_Market.cadastromerccs.resources
+C:\Users\House\Downloads\Free-market-master (1)\Free-market-master\Free_Market\obj\x86\Debug\Free_Market.carrinho.resources
+C:\Users\House\Downloads\Free-market-master (1)\Free-market-master\Free_Market\obj\x86\Debug\Free_Market.Compra.resources
+C:\Users\House\Downloads\Free-market-master (1)\Free-market-master\Free_Market\obj\x86\Debug\Free_Market.config.resources
+C:\Users\House\Downloads\Free-market-master (1)\Free-market-master\Free_Market\obj\x86\Debug\Free_Market.histórico.resources
+C:\Users\House\Downloads\Free-market-master (1)\Free-market-master\Free_Market\obj\x86\Debug\Free_Market.HistóricoAll.resources
+C:\Users\House\Downloads\Free-market-master (1)\Free-market-master\Free_Market\obj\x86\Debug\Free_Market.Login.resources
+C:\Users\House\Downloads\Free-market-master (1)\Free-market-master\Free_Market\obj\x86\Debug\Free_Market.Dashboard.resources
+C:\Users\House\Downloads\Free-market-master (1)\Free-market-master\Free_Market\obj\x86\Debug\Free_Market.user.resources
+C:\Users\House\Downloads\Free-market-master (1)\Free-market-master\Free_Market\obj\x86\Debug\Free_Market.Properties.Resources.resources
+C:\Users\House\Downloads\Free-market-master (1)\Free-market-master\Free_Market\obj\x86\Debug\Free_Market.Categoria.resources
+C:\Users\House\Downloads\Free-market-master (1)\Free-market-master\Free_Market\obj\x86\Debug\Free_Market.func.resources
+C:\Users\House\Downloads\Free-market-master (1)\Free-market-master\Free_Market\obj\x86\Debug\Free_Market.csproj.GenerateResource.cache
+C:\Users\House\Downloads\Free-market-master (1)\Free-market-master\Free_Market\obj\x86\Debug\Free_Market.exe
+C:\Users\House\Downloads\Free-market-master (1)\Free-market-master\Free_Market\obj\x86\Debug\Free_Market.pdb
+C:\Users\House\Downloads\Free-market-master (1)\Free-market-master\Free_Market\bin\Debug\Free_Market.exe
+C:\Users\House\Downloads\Free-market-master (1)\Free-market-master\Free_Market\bin\Debug\Free_Market.pdb
+C:\Users\House\Downloads\Free-market-master (1)\Free-market-master\Free_Market\bin\Debug\Mono.Security.dll
+C:\Users\House\Downloads\Free-market-master (1)\Free-market-master\Free_Market\bin\Debug\Npgsql.dll
+C:\Users\House\Downloads\Free-market-master (1)\Free-market-master\Free_Market\bin\Debug\Npgsql.xml
+C:\Users\House\Downloads\Free-market-master (1)\Free-market-master\Free_Market\bin\Debug\de\Npgsql.resources.dll
+C:\Users\House\Downloads\Free-market-master (1)\Free-market-master\Free_Market\bin\Debug\es\Npgsql.resources.dll
+C:\Users\House\Downloads\Free-market-master (1)\Free-market-master\Free_Market\bin\Debug\fi\Npgsql.resources.dll
+C:\Users\House\Downloads\Free-market-master (1)\Free-market-master\Free_Market\bin\Debug\fr\Npgsql.resources.dll
+C:\Users\House\Downloads\Free-market-master (1)\Free-market-master\Free_Market\bin\Debug\ja\Npgsql.resources.dll
+C:\Users\House\Downloads\Free-market-master (1)\Free-market-master\Free_Market\bin\Debug\zh-CN\Npgsql.resources.dll
+C:\Users\House\Downloads\Free-market-master (1)\Free-market-master\Free_Market\obj\x86\Debug\Free_Market.csproj.CopyComplete
